@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Simply Broccoli</title>
+    <title>Simply Broccoli | Feedback</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,77 +13,34 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <!-- Navigation -->
     <nav class="navcss navbar-default">
         <div class="contain">
-            <a class="nav-h1" href="#home">Simply Broccoli<span>Web Design and Usability II</span></a>
+            <a class="nav-h1" href="index.html">Simply Broccoli<span>Web Design and Usability II</span></a>
         </div>
         <ul class="nav navbar-nav znav">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#gallery"> GALLERY</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#"> GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
         </ul>
     </nav>
-
-    <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <h1 class="pb-1">Justin Hernandez's Recipes</h1>
-            <h2 class="p-5">(I assumed the name Wing B. on github)</h2>
-            <a href="#gallery" class="bttn">BROWSE RECIPES</a>
-        </div>
-    </section>
-
-    <!-- Simply Broccoli -->
-
-    <section id="tagline">
-        <div>
-            <h1 class="p-5">Welcome to Usability II....of broccolini</h1>
-        </div>
-        <div class="text-group">
-            <p>Think you know broccoli? Think again. I'm here to make broccolini the star of your plate because it deserves the spotlight. If you haven’t tried it yet, you’re seriously missing out.
-            </p>
-
-            <p>Whether you're looking to elevate your meals, impress your friends, or trick the kids into loving their greens? The Chinese broccoli, also known as gai-lan, kai lan or Chinese kale (芥蓝) is your <span class="secret"><i class="fa-solid fa-book-skull"></i> secret weapon</span>. If you’re grilling it, steaming it, or even just tossing it into a salad, I’ve got all the recipes and tips you need to make broccolini your new go-to vegetable.</p>
-
-            <p>Stop settling for the ordinary. It’s time to eat like you mean it.
-            </p>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="container text-center">
-        <h1 class="heading">Broccolini Recipes</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="img/wok-dish-broccoli.webp" alt="broccolini1">
-                <h3>Garlic Sautéed Broccolini</h3>
+    <!-- Contact -->
+    <section id="contact" class="container text-center">
+        <h1 class="pb-4">Share Your Feedback</h1>
+        <form action="index.html" method="post" class="p-5">
+            <div class="form-group">
+                <input name="name" type="text" class="form-control" placeholder="Justin Hernandez">
             </div>
-            <div class="col-md-4">
-                <img src="img/broccolini-simple.webp" alt="broccolini2">
-                <h3>Grilled Broccolini with Lemon</h3>
+            <div class="form-group">
+                <input name="email" type="email" class="form-control" placeholder="Email">
             </div>
-            <div class="col-md-4">
-                <img src="https://placehold.co/300x200" alt="broccolini3">
-                <h3>Hi Bridgette!</h3>
-                <p>Please let me know if you need the login for this website!</p>
+            <div class="form-group">
+                <textarea name="message" class="form-control" rows="4" placeholder="Message"></textarea>
             </div>
-        </div>
-        <div>
-            <p>-- insert Drop down icon/sub-menu for recipes here --</p>
-            <p><i class="fa fa-caret-down" aria-hidden="true"></i></p>
-        </div>
+            <button type="submit">not responsive</button>
+        </form>
     </section>
-
-    <!-- Contact Section -->
-    <div class="contact-button text-center" id="contact">
-        <p>If you wanna talk about anything broccoli or just anything in genera, please visit my contact page.</p>
-        <a href="contact.html" class="display-1">Feedback</a>
-    </div>
-
-    <!-- Footer -->
     <footer>
         <div class="container text-center">
             <p>&copy; 2025 Justin Hernandez. All rights reserved.</p>
@@ -129,6 +85,5 @@
             
         </div>
     </footer>
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
